@@ -55,6 +55,7 @@ public class BasePage extends Page{
 			wait.until(ExpectedConditions.titleContains(title));
 		} catch (Exception e) {
 			System.out.println("some error occur while creating an element "+ title);
+			System.out.println("abcd");
 		}
 	}
 
